@@ -49,6 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function displayCart() {
     let totalAmt = 0;
+    cartItemsDisplay.innerHTML = "";
     if (cart.length > 0) {
       emptyCartText.classList.add("hidden");
       cart.forEach((item, index) => {
