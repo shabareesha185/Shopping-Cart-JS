@@ -32,4 +32,4 @@ It allows users to view products, add them to the cart, and perform checkout —
 
 2. Open the folder in your code editor.
 
-3.Open index.html in your browser.
+3. Open index.html in your browser.
