@@ -82,6 +82,24 @@ h2 {
   display: none;
 }
 
-#cart-items > p{
+#cart-items > div{
     padding: 5px;
+    margin: 2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#cart-items button {
+  background-color: #6200ea;
+  border: none;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#cart-items button:hover {
+  background-color: #3700b3;
 }
